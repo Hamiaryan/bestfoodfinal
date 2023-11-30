@@ -1,0 +1,503 @@
+
+
+/*Header */
+
+header {
+  background: url('asset/back1.jpeg'); /* Adjust the path based on your project structure */
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 0 0 85% 85% / 30%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+
+header .overlay {
+  background-image: linear-gradient(135deg, #fff 1%, #fd5e086b 100%);
+  padding: 20px;
+  text-shadow: 1px 1px 1px #FCC8BD;
+}
+
+.logo {
+  display: block;
+  height: auto;
+  margin: 10px auto 0; /* Adjusted the top margin to 10px */
+  max-width: 100px; /* Set your desired max width for the logo */
+}
+
+
+h3 {
+  color: #55170A;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.welcome-text {
+  color: #55170A;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: none;
+}
+
+
+.custom-nav {
+  background: rgb(149, 35, 35, 0.5); /* Semi-transparent background color */
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+.custom-nav a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none; 
+}
+
+
+/* Body */
+
+body {
+  background-image: linear-gradient(135deg,rgba(244, 154, 106, 0.2) 90%, rgba(255, 255, 255, 0.1) 20%),
+              url('asset/back2.jpg');
+  background-size: 100%;    
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  
+  
+
+}
+
+
+
+
+.listing-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+
+.product {
+  background-color: #a9a9a9; /* Fallback color for older browsers */
+  background-color: rgba(169, 169, 169, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  margin: 10px;
+  width: 300px;
+}
+
+
+
+.product:hover {
+  box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1); /* Example transform for hover effect */
+  transition: transform 1s ease;
+}
+
+
+.image-box {
+  border-radius: 2% 2% 0 0;
+    overflow: hidden;
+}
+
+.image-box {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2% 2% 0 0;
+  height: 15em;
+  width: 100%;
+}
+
+
+
+.images img {
+    width: 130%;
+}
+
+
+
+.text-box {
+  background: #55170A; /* Fallback color for older browsers */
+  background: rgba(255, 255, 255, 0.5);
+  border: 0.01em solid #000000;
+  border-radius: 0 0 2% 2%;
+  color: #000000;
+  padding: 1em;
+}
+
+
+
+.text-box:hover{
+    box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+}
+
+/*Home page*/
+.home_login-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.home_login_text{
+  color: #55170A; /* Set the desired text color */
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 1px #FCC8BD;
+ 
+}
+
+
+.price,
+.description,
+.item {
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+.description {
+  margin: 0.2em auto;
+  text-align: center;
+}
+
+.quantity {
+  background-color: #fff;
+  border: 1px solid #55170A;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.quantity:focus {
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.quantity:hover {
+  border-color: #333;
+}
+
+/* Rating Form */
+.rateshow,
+.star-rating {
+  font-size: 16px;
+}
+
+.rateshow {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.star-rating {
+  color: #f9bc5b; /* Star color */
+  display: inline-block;
+  height: 20px;
+  margin-right: 5px;
+  position: relative;
+  width: 100px;
+}
+
+.star-rating:before {
+  content: '★★★★★';
+  letter-spacing: 3px;
+}
+
+
+/* Footer */
+.footer-distributed .footer-company-name,
+.footer-distributed .footer-right p,
+.footer-distributed .footer-company-about,
+.footer-distributed .footer-company-about span {
+  font-size: 14px;
+}
+
+
+footer {
+  background: url('asset/back2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 85% 85% 0 0 / 30%;
+  height: auto;
+  letter-spacing: 1.5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+
+footer .overlay {
+  background-image: linear-gradient(135deg, #fff 1%, #fd5e086b 100%);
+  color: #CD4427;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #FCC8BD;
+}
+
+
+
+
+.footer-distributed {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+
+  font: bold 16px sans-serif;
+  text-align: left;
+  width: 100%;
+}
+
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  margin-top: 10px;
+  width: 50%;
+}
+
+
+
+h4{
+  color:  #55170A;
+  font: normal 24px 'Open Sans', cursive;
+  margin: 0;
+
+}
+
+ h4 span{
+  color:  #55170A;
+}
+
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+ margin-left: 5%;
+  margin-top: 10px;;
+  width: 40%;
+}
+
+.footer-distributed .footer-right i {
+  height: 38px;
+  text-align: center;
+  width: 38px;
+}
+
+
+.footer-distributed .footer-right p {
+  color: #55170A;
+  display: inline-block;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+.footer-distributed .footer-right p a{
+  color:  #55170A;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-company-about {
+  color: #55170A;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  margin: 0;
+}
+
+
+.footer-distributed .footer-company-about span {
+  color: #55170A;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 10px; /* Adjust the value as needed */
+}
+
+.footer-distributed .footer-icons a {
+
+  line-height: 20px; /* Adjust this value as needed */
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+
+/*contact page*/
+
+.contact {
+  align-items: center;
+  color: #2A293E;
+  display: grid;
+  font-family: 'Spartan', sans-serif;
+  font-size: 12pt;
+}
+
+.contact-heading {
+  color: #800000;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/*about*/
+ 
+.about{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+ 
+
+.section-about {
+  
+  background: linear-gradient(135deg, #fff 1%, #fd5e086b 100%);
+  border-radius: 3px;
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+ 
+}
+
+
+h5 {
+  color: #800000;
+  font-size: 18px; /* Keep one font-size property */
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+.section-about p {
+  color: #000000;
+  font-size: 16px; /* Added the missing semicolon */
+  line-height: 1.6;
+}
+
+
+  .section-about ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .section-about li {
+    margin-bottom: 10px;
+    
+  }
+
+  .user_login {
+    font-size: 16px;
+   
+   
+}
+
+  .add_product-form,
+  .contact-us,.login {
+    background: linear-gradient(135deg, #fff 1%, #fd5e086b 100%);
+    border-radius: 7px;
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin: 30px auto;
+    max-width: 285px; /* Set a maximum width instead of fixed width */
+    padding: 20px;
+    position: relative;
+  }
+  
+
+  .login-heading {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 20px;
+  }
+  
+
+  .contact-us input,
+  input {
+    background: white;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    color: #404040;
+    height: 34px;
+    margin: 5px;
+    outline: 5px solid #eff4f7;
+    width: 265px;
+  }
+  
+
+ 
+  .add-to-cart-button ,
+  .add_product-form button,
+  .contact-us button,
+  .delete-product-button,
+  .homelogin-button,
+  .login-button {
+    background: #800000;
+    border-radius: 15px;
+    color: #fffdfd;
+    font-size: 16px; /* Keep one font-size property */
+    height: 29px;
+    padding: 0 18px;
+}
+  
+  .login-button:hover,
+  .homelogin-button:hover,
+  .add_product-form button:hover,
+  .delete-product-button:hover,
+  .contact-us button:hover,
+  .add-to-cart-button:hover {
+    background: #952323; /* Fallback color for older browsers */
+    background: rgba(149, 35, 35, 0.5);
+    cursor: pointer;
+  }
+  
+
+
+  .Update_products_heading {
+    color: #800000;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
